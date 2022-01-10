@@ -47,7 +47,7 @@ To evaluate my model, simply run demo.sh:
 	
 	sh demo.sh
 
-The command would generate a "result" directory inside "src" directory, and "result" contains all test images.
+The command would generate a "results" directory inside "src" directory, and "results" contains all test images.
 
 Simply zip all images to a .zip file, and upload it to codalab should be enough to evaluate my model.
 

@@ -31,28 +31,27 @@ Evaluation
 
 First You need to follow step 1 to step 5 as the training part:
 
-To evaluate the model, download the model from link in the below.
+Model is contained in this repo, so you don't need to download from google drive, instead, simply git clone the repo
+
+Model Link:
 
 
-After running, a file "result.pkl" would be generated in ./
+Note that you need to do git clone, for there are some extra files in "experiment" directory that we need for evaluation process.
 
-Move the result.pkl to "dataset" directory and run defuse.py
-        
-        python3 defuse.py
-        
-This would generate answer.json, just zip it and upload to colab to evaluate the performance.		
 
-Model(latest.pth): https://drive.google.com/file/d/1Mc9ts3-ChO_9GNzbLhPwVQpAO7_K7_p7/view?usp=sharing
+To evaluate my model, simply run demo.sh:  
+	
+	sh demo.sh
 
+The command would generate a "result" directory inside "src" directory, and "result" contains all test images.
+
+Simply zip all images to a .zip file, and upload it to codalab should be enough to evaluate my model.
 
 	
 Pre-trained Models
 -------------------------------------------------------------------------
-You can download and use pretrained models by simply running training command above:
-    
-	python3 tools/train.py configs/HW/HW.py
 
-This will download the model if not downloaded yet.
+As TA's rule, No pretrained model is used in this implementation
     
     
 Results

@@ -27,7 +27,7 @@ To train the models, you need to follow below steps:
 
 Follow the above steps would start the training process.
 
-Note that if you want to reproduce my submit, you have to run Evaluation part first, because the train.sh would overwrite the model_latest.pt. 
+Note that if you want to reproduce my submission, you have to run Evaluation part first, because the train.sh would overwrite the model_latest.pt. 
 
 Evaluation
 -------------------------------------------------------------------------

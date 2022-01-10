@@ -33,7 +33,11 @@ First You need to follow step 1 to step 5 as the training part:
 
 Model is contained in this repo, so you don't need to download from google drive, instead, simply git clone the repo
 
-Model Link:
+Model path: VRDL_HW4/experiment/test/model/model_latest.pth
+
+Link:
+
+https://github.com/egghead2630/VRDL_HW4/tree/main/VRDL_HW4/experiment/test/model
 
 
 Note that you need to do git clone, for there are some extra files in "experiment" directory that we need for evaluation process.

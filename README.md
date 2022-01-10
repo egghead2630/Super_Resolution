@@ -24,7 +24,10 @@ To train the models, you need to follow below steps:
         5. Go to directory "src":   cd ./src/
         6. Execute the train.sh:    sh train.sh
 
+
 Follow the above steps would start the training process.
+
+Note that if you want to reproduce my submit, you have to run Evaluation part first, because the train.sh would overwrite the model_latest.pt. 
 
 Evaluation
 -------------------------------------------------------------------------
@@ -47,7 +50,7 @@ To evaluate my model, simply run demo.sh:
 	
 	sh demo.sh
 
-The command would generate a "results" directory inside "src" directory, and "results" contains all test images.
+The command would generate a "results" directory inside "src" directory, and "results" contains all SR test images.
 
 Simply zip all images to a .zip file, and upload it to codalab should be enough to evaluate my model.
 

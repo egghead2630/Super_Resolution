@@ -32,7 +32,7 @@ Note that if you want to reproduce my submission, you have to run Evaluation par
 Evaluation
 -------------------------------------------------------------------------
 
-First You need to follow step 1 to step 5 as the training part:
+First You need to follow step 1 to step 5 as the Training part:
 
 Model is contained in this repo, so you don't need to download from google drive, instead, simply git clone the repo
 
